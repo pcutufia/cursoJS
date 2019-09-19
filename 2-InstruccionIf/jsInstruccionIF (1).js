@@ -12,6 +12,8 @@ edad = parseInt(edad)
 
 console.log(typeof edad) 
 
+if(!isNaN(edad)) 
+
 if(edad === 15)
 
 {alert ("Niña Bonita") }
