@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+        <link rel="stylesheet" href="./css/index.css">
     <script src="./java/index.js"></script>
+    <title>Document</title>
 </head>
 <body>
     
+    <div id="container">
+
+    
+
     <form action="https://google.com.ar" method="" style="width: 300px" id="frmPersona">
 
         
@@ -37,11 +42,11 @@
                 <td><input type="text" id="txtEdad" name="edad" placeholder="Ingrese su edad"></td>
             </tr>
             <tr>
-                <td><input type="radio" name="genero" id="rdoMasculino" checked></td>
+                <td><input type="radio" name="genero" id="rdoMasculino" value="masculino" checked></td>
                 <td><label for="rdoMasculino">Masculino</label></td>
             </tr>
             <tr>
-                <td><input type="radio" name="genero" id="rdoFemenino"></td>
+                <td><input type="radio" name="genero" id="rdoFemenino" value="femenino"></td>
                 <td><label for="rdoFemenino">Femenino</label></td> 
             </tr>
             <tr>
@@ -74,6 +79,73 @@
     </fieldset>
 
     </form>
+
+    <form action="https://google.com.ar" method="" style="width: 300px" id="frmPersona">
+
+        
+        
+
+        
+        
+
+        <fieldset>
+            <legend>Datos Personales</legend>
+        
+        
+
+
+        <table>
+            <tr>
+                <td><label for="txtNombre">Nombre:</label></td>
+                <td><input type="text" id="txtNombre2" name="nombre" placeholder="Ingrese su nombre" required></td>
+            </tr>
+            <tr>
+                <td><label for="txtApellido">Apellido:</label></td>
+                <td><input type="text" id="txtApellido2" name="apellido" placeholder="Ingrese su apellido"></td>
+            </tr>
+            <tr>
+                <td><label for="txtEdad">Edad:</label></td>
+                <td><input type="text" id="txtEdad2" name="edad" placeholder="Ingrese su edad"></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="genero" id="rdoMasculino2" value="masculino" checked></td>
+                <td><label for="rdoMasculino">Masculino</label></td>
+            </tr>
+            <tr>
+                <td><input type="radio" name="genero" id="rdoFemenino2" value="femenino"></td>
+                <td><label for="rdoFemenino">Femenino</label></td> 
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="Maneja" id="chkManeja2"></td>
+                <td><label for="chkManeja">Maneja</label></td>
+            </tr>
+            <tr>   
+                <td><input type="checkbox" name="Nada" id="chkNada2"></td>
+                <td><label for="chkNada">Nada</label></td>
+            <tr>
+                <td><input type="checkbox" name="Bicicleta" id="chkBicicleta2"></td>
+                <td><label for="chkBcicleta">Sabe andar en bicicleta</label></td>
+            </tr>
+            <tr>
+                <td><select name="pais" id="selPais2">
+                    <option value="ar">Argentina</option>
+                    <option value="br">Brasil</option>
+                    <option value="uy">Uruguay</option>
+                    <option value="py">Paraguay</option>
+                    <option value="cl">Chile</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Alta Persona"></td>
+
+                <td></td>
+            </tr>
+
+        </table>
+    </fieldset>
+
+    </form>
+    </div>
 
 </body>
 </html>
